@@ -1,8 +1,8 @@
 {
   "lanes": [
     {
-      "id": "PLANNED",
-      "title": "Planned Tasks",
+      "id": "team1",
+      "title": "Evaluation Team 1",
       "label": "20/70",
       "editLaneTitle": true,
       "draggable": false,

@@ -5,6 +5,12 @@ import data from "./data.json";
 import "./styles.css";
 import Board from "react-trello";
 
+const cardTypeOrderMap = {
+  evaluator: 1,
+  divider: 2,
+  submission: 3
+};
+
 function handleDragEnd(
   cardId,
   sourceLaneId,
@@ -24,7 +30,7 @@ function handleDragEnd(
     "cardDetails - ",
     cardDetails
   );
-  return true;
+  return true; //allow drop//write custom logic to cancel dropping
 }
 
 function App() {
@@ -38,7 +44,14 @@ function App() {
         canAddLanes
         handleDragEnd={handleDragEnd}
         laneSortFunction={(card1, card2) => {
-          return card1.id < card2.id ? -1 : 1;
+          if (cardTypeOrderMap[card1.type] < cardTypeOrderMap[card2.type])
+            return -1;
+          else if (cardTypeOrderMap[card1.type] > cardTypeOrderMap[card2.type])
+            return 1;
+          else {
+            if (card1.id < card2.id) return -1;
+            else return 1;
+          }
         }}
       />
     </div>
