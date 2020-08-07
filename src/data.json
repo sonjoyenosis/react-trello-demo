@@ -40,8 +40,8 @@
             }
           ],
           "type": "evaluator",
-          "id": "Plan2",
-          "title": "Dispose Garbage",
+          "id": "eevaluator2",
+          "title": "Evaluator 2",
           "label": "10 mins",
           "description": "Sort out recyclable and waste as needed"
         },
@@ -68,8 +68,8 @@
             }
           ],
           "type": "submission",
-          "id": "Plan3",
-          "title": "Write Blog",
+          "id": "submission1",
+          "title": "Submission 1",
           "label": "30 mins",
           "description": "Can AI make memes?"
         },
@@ -87,8 +87,8 @@
             }
           ],
           "type": "submission",
-          "id": "Plan4",
-          "title": "Pay Rent",
+          "id": "submission3",
+          "title": "Submission 3",
           "label": "5 mins",
           "description": "Transfer to bank account"
         }
@@ -116,8 +116,8 @@
             }
           ],
           "type": "submission",
-          "id": "Wip1",
-          "title": "Clean House",
+          "id": "submission4",
+          "title": "Submission 4",
           "label": "30 mins",
           "description": "Soap wash and polish floor. Polish windows and doors. Scrap all broken glasses"
         }
@@ -154,8 +154,8 @@
             }
           ],
           "type": "submission",
-          "id": "Completed1",
-          "title": "Practice Meditation",
+          "id": "submission5",
+          "title": "Submission 5",
           "label": "15 mins",
           "description": "Use Headspace app"
         },
@@ -173,8 +173,8 @@
             }
           ],
           "type": "submission",
-          "id": "Completed2",
-          "title": "Maintain Daily Journal",
+          "id": "submission6",
+          "title": "Submission 6",
           "label": "15 mins",
           "description": "Use Spreadsheet for now"
         }
